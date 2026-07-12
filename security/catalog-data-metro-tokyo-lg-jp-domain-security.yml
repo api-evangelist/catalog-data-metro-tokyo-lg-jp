@@ -1,0 +1,15 @@
+generated: '2026-07-11'
+method: probed
+source: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts
+hosts:
+- host: catalog.data.metro.tokyo.lg.jp
+  https: true
+  tls_version: TLSv1.3
+  cert_expires: Feb 25 23:59:59 2027 GMT
+  hsts: null
+domains:
+- domain: lg.jp
+  dnssec: false
+  caa: []
+  spf: false
+  dmarc: false
